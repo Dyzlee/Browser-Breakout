@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="menu.js"></script>
+    <link rel="stylesheet" href="menu.css">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div class="menu">
+        <h1>Browser Breakout!</h1>
+        <button id="start">Play</button>
+
+        <div class="options">
+            <div class="option">
+                <label class="optionLabel" for="maxBricks">Amount of bricks:</label>
+                <input id="maxBricks" name="maxBricks" type="number" min="1" max="100">
+            </div>
+
+            <div class="option">
+                <label class="optionLabel" for="lives">Amount of lives:</label>
+                <input id="lives" name="lives" type="number" min="1" max="1000">
+            </div>
+
+            <div class="option">
+                <label class="optionLabel" for="showExplosion">Show explosion:</label>
+                <input id="showExplosion" name="showExplosion" type="checkbox">
+            </div>
+
+            <div class="option">
+                <label class="optionLabel" for="ballColor">Color of ball:</label>
+                <input id="ballColor" name="ballColor" type="color">
+            </div>
+
+            <div class="option">
+                <label class="optionLabel" for="platformColor">Color of platform:</label>
+                <input id="platformColor" name="platformColor" type="color">
+            </div>
+
+            <button id="reset">Reset Preferences</button>
+        </div>
+    </div>
+</body>
+
+</html>

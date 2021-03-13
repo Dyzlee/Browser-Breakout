@@ -1,0 +1,112 @@
+/*
+Vaporwave Color Palette:
+#ff124f
+#ff00a0
+#fe75fe
+#7a04eb
+#120458
+https://blog.depositphotos.com/wp-content/uploads/2020/01/Cyberpunk-color-palettes_03.jpg.webp
+*/
+
+body, html, .menu {
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 250px;
+    max-height: 350px;
+    /*background-color: #120458;
+    color: #fe75fe;*/
+    font-size: 14px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#start {
+    background-color: #dee2e6;
+    color: inherit;
+    border: black solid 1px;
+    padding: 10px;
+    width: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    outline: none;
+}
+#start:hover {
+    background-color: #ced4da;
+}
+#start:active  {
+    background-color: #adb5bd;
+}
+
+.options {
+    /*border: #ff00a0 solid 1px;*/
+    margin-top: 10px;
+    margin-bottom: 6px;
+    padding: 10px;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.optionLabel {
+    margin-right: 10px;
+}
+
+#lives, #maxBricks {
+    width: 50px;
+}
+
+#reset {
+    background-color: #dee2e6;
+    color: inherit;
+    width: fit-content;
+    margin-top: 5px;
+    border: black solid 1px;
+    padding: 5px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    outline: none;
+}
+#reset:hover  {
+    background-color: #ced4da;
+}
+#reset:active  {
+    background-color: #adb5bd;
+}
+
+input[type="color"] {
+	/*background-color: #7a04eb;*/
+}
+input[type="color"]:focus {
+	outline: none;
+}
+
+input[type="number"] {
+	/*background-color: #7a04eb;*/
+    color: inherit;
+}
+input[type="number"]:focus {
+	outline: none;
+}
+
+input[type="checkbox"] {
+}
+input[type="checkbox"]:focus {
+	outline: none;
+}

@@ -1,0 +1,21 @@
+.exploding {
+	pointer-events: all;
+	position: relative;
+	will-change: transform;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	z-index: 2147483647;
+}
+
+.particle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2147483647;
+}
+
+.particle--fire {
+	border-radius: 50%;
+}
